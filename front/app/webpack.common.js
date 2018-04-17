@@ -4,13 +4,16 @@ import CleanWebpackPlugin from 'clean-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import HtmlWebpackHarddiskPlugin from 'html-webpack-harddisk-plugin';
 
+import { IS_PROD, SCRIPT_PATH } from './config';
+
 export default {
   entry: {
-    main: './src/app.js'
+    main: ['babel-polyfill', './src/app.js']
   },
   output: {
     filename: 'app.[hash].bundle.js',
-    path: resolve(__dirname, 'public')
+    path: resolve(__dirname, 'public'),
+    publicPath: IS_PROD ? '/' : SCRIPT_PATH
   },
   module: {
     rules: [
@@ -38,7 +41,7 @@ export default {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'CFS4',
+      title: 'El contador de leyendas',
       template: 'index.ejs',
       alwaysWriteToDisk: true
     }),

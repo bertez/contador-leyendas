@@ -12,6 +12,6 @@ services:
     depends_on:
       - back
   db:
-    image: mvertes/alpine-mongo
+    image: mongo
     volumes:
       - ./data/db:/data/db
