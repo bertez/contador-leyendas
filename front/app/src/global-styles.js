@@ -33,4 +33,5 @@ export const colors = {
   cyan: '#00BCD4',
   red: '#E53935',
   transparentGray: 'rgba(0,0,0,.5)',
+  transparentWhite: 'rgba(255,255,255,.7)'
 }

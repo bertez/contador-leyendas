@@ -11,17 +11,7 @@ module.exports = (app, db) => {
       const n = Math.min(req.query.n || 20, 200);
 
       const data = yield storage
-        .find(
-          {
-            objects: {
-              $exists: true,
-              $not: { $size: 0 }
-            }
-          },
-          {
-            name: 1
-          }
-        )
+        .find()
         .sort({ _id: -1 })
         .skip(offset)
         .limit(n)
@@ -42,8 +32,12 @@ module.exports = (app, db) => {
     wrap(function*(req, res, next) {
       const payload = req.body;
 
+      console.log(payload);
+
       //TODO: validate payload
       const r = yield storage.insertOne(payload);
+
+      res.send(r);
     })
   );
 };
