@@ -46,6 +46,8 @@ export default {
       alwaysWriteToDisk: true
     }),
     new HtmlWebpackHarddiskPlugin(),
-    new CleanWebpackPlugin(['public'])
+    new CleanWebpackPlugin(['public'], {
+      exclude: ['media']
+    })
   ]
 };

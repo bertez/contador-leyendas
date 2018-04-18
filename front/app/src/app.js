@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import './global-styles';
 
-import Main from './components/Main.jsx';
-import Map from './components/Map.jsx';
-import New from './components/New.jsx';
+import Main from './pages/Main.jsx';
+import Map from './pages/Map.jsx';
+import New from './pages/New.jsx';
 
 
 class App extends Component {
