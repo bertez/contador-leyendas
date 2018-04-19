@@ -6,5 +6,5 @@ services:
     ports:
       - 9327:80
     command: >
-     sh -c "npm build &&
+     sh -c "npm run build &&
             nginx -g 'daemon off;'"
