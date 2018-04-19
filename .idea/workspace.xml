@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a60aeae-37d8-4e89-bee8-d53f4ff44484" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/app/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/src/global-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/app/src/global-styles.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +14,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/app/src/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/app/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Main.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/app/src/pages/Main.jsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -34,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -76,17 +95,8 @@
       <file leaf-file-name="Map.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/app/src/pages/Map.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Legend.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/app/src/components/Legend.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="210">
+              <caret line="14" column="47" selection-start-line="14" selection-end-line="15" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -94,23 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back/api/list.js">
+      <file leaf-file-name="global-styles.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/app/src/global-styles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewLegend.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/app/src/components/NewLegend.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-226">
-              <caret line="17" selection-start-line="17" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -147,14 +145,12 @@
         <option value="$PROJECT_DIR$/back/server.js" />
         <option value="$PROJECT_DIR$/front/nginx.conf" />
         <option value="$PROJECT_DIR$/front/app/src/global.js" />
-        <option value="$PROJECT_DIR$/front/app/src/app.js" />
         <option value="$PROJECT_DIR$/front/app/src/components/Main.jsx" />
         <option value="$PROJECT_DIR$/front/app/src/components/Button.jsx" />
         <option value="$PROJECT_DIR$/front/app/webpack.common.js" />
         <option value="$PROJECT_DIR$/front/app/config.js" />
         <option value="$PROJECT_DIR$/front/app/public/media/i_search.svg" />
         <option value="$PROJECT_DIR$/front/app/src/components/Form.jsx" />
-        <option value="$PROJECT_DIR$/front/app/src/global-styles.js" />
         <option value="$PROJECT_DIR$/front/app/src/components/NewLegend.jsx" />
         <option value="$PROJECT_DIR$/back/api/list.js" />
         <option value="$PROJECT_DIR$/front/app/src/pages/Map.jsx" />
@@ -164,6 +160,8 @@
         <option value="$PROJECT_DIR$/front/app/src/pages/Main.jsx" />
         <option value="$PROJECT_DIR$/docker-compose.production.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/front/app/src/app.js" />
+        <option value="$PROJECT_DIR$/front/app/src/global-styles.js" />
       </list>
     </option>
   </component>
@@ -278,6 +276,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="app.js&#9;FILE&#9;file:///Users/berto/Projects/contador-leyendas/front/app/src/app.js&#10;global&#9;FILE&#9;file:///Users/berto/Projects/contador-leyendas/front/app/src/global-styles.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="9.11.1" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -330,7 +329,7 @@
       <updated>1523980577387</updated>
       <workItem from="1523980580356" duration="9552000" />
       <workItem from="1523994033141" duration="31053000" />
-      <workItem from="1524075603433" duration="4511000" />
+      <workItem from="1524075603433" duration="6003000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1523981286989</created>
@@ -378,7 +377,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45116000" />
+    <option name="totallyTimeSpent" value="46608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="432" y="22" width="1235" height="778" extended-state="0" />
@@ -450,6 +449,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -605,27 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/app/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/app/src/global-styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/app/data/leyendas.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -640,13 +621,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/app/src/pages/Map.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -677,16 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/app/src/pages/Main.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.override.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -712,6 +676,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/app/src/pages/Map.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="47" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/app/src/pages/Main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/app/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/app/src/global-styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
