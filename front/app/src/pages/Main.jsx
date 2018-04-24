@@ -128,6 +128,13 @@ class Main extends Component {
               twitter={'https://twitter.com/kamylicious'}
             />
             <Person
+              name={'Alejandro Noreña'}
+              work={'Periodista digital'}
+              role={'Realizador audiovisual'}
+              facebook={'https://www.facebook.com/alejandro.norena'}
+              twitter={'https://twitter.com/alejonorena'}
+            />
+            <Person
               name={'Gina Paola Maestre G.'}
               work={'Mg. en Informática'}
               role={'Apoyo contenidos'}
